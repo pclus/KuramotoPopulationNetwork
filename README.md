@@ -12,15 +12,19 @@ Two different set of codes are provided:
 	 
 ## Using the `KuramotoPopulationNetwork` module 
 
-Open a Julia REPL in the `src` folder and then use the following
-to include it in the path and load it, alongside other packages.
-Notice that you might have to install new packages (see the `KuramotoPopulationNetwork.jl` file to identify which ones).
+Open a Julia REPL in the directory, activate the project and load/install all required dependencies:
 
 ```julia
-push!(LOAD_PATH, pwd())
+] activate .
+] instantiate
 using KuramotoPopulationNetwork
-using Graphs
-using Plots,ColorSchemes
+```
+
+Apart from these packages, to run these examples we also need three other packages.
+Load (or install) them with:
+
+```
+using Graphs, Plots, ColorSchemes
 ```
 
 Then we can use `Graphs.jl` to generate a ring network with nearest neighbours:
@@ -81,6 +85,7 @@ t,R,ϕ,u0 = simulation(;K=14.0,p=0.9,α=1.2,gr=g_er,trans=5e2,tmax=4e2,ic="homog
 λ, = simulationLE(;K=14,p=0.9,α=1.2,gr=g_er,trans=2e2,tmax=1e3,nLE=2*size(g_er,1),ic=u0);
 ```
 and plot the results:
+
 ```julia
 n = size(R,1)
 trange = n-10000:1:n;
