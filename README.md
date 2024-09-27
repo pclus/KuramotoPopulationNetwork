@@ -1,4 +1,4 @@
-# Julia code to simulate networks of Kuramoto-Sakaguchi populations
+# Simulation and analysis of Kuramoto-Sakaguchi populations interacting through complex networks
 
 
 This repository contains the code accompaining the paper [From chimeras to extensive chaos in networks of heterogeneous
