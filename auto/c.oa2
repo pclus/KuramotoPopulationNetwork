@@ -1,0 +1,11 @@
+unames = {1: 'Ra', 2: 'Rb', 3: 'theta'}
+parnames = {1: 'K', 2: 'p', 3 : 'alpha'}
+NDIM=   3, IPS =   1, IRS =   0, ILP =   1
+ICP =  [1,2,3]
+NTST=  100, NCOL=   4, IAD =   3, ISP =   1, ISW = 1, IPLT= 0, NBC= 0, NINT= 0
+NMX=  1000, NPR=  500, MXBF=  -1, IID =   2, ITMX= 8, ITNW= 7, NWTN= 3, JAC= 1
+EPSL= 1e-07, EPSU = 1e-07, EPSS = 1e-05
+DS  =   0.01, DSMIN=  0.00001, DSMAX=  0.1, IADS=   1
+NPAR = 5, THL =  {}, THU =  {}
+UZR =  { }
+UZSTOP={'K' : 0.0, 'K' : 200 , 'p' : 1e-3, 'p' : 0.999 , 'alpha' : 0.0 , 'alpha' : 3.1416}
