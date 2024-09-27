@@ -1,0 +1,14 @@
+name = "KuramotoPopulationNetwork"
+uuid = "b7db0ba1-5629-4979-8878-7fcfe96a3969"
+authors = ["pclus <pau.clusella@upc.edu>"]
+version = "0.1.0"
+
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+DynamicalSystems = "61744808-ddfa-5f27-97ff-6e42cc95d634"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+Kronecker = "2c470bb0-bcc8-11e8-3dad-c9649493f05e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
