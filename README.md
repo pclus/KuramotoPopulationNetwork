@@ -6,7 +6,7 @@ Kuramoto oscillator populations](https://arxiv.org/abs/2407.20408) by Pol Floria
 
 Two different set of codes are provided:
 
-1. Some `auto-07p` files and instructions to obtain the main bifurcations displayied in the paper for a two-population model (Fig. 2). These is all provided in the `auto` folder. See `diagram.md` in that folder.
+1. Some `auto-07p` files and instructions to obtain the main bifurcations displayied in the paper for a two-population model (Fig. 2). These is all provided in the `auto` folder. See the `TUTORIAL.md` in that folder.
 2. The Julia code to reproduce most of the simulations in the paper. These functions are provided in the `KuramotoPopulationNetwork.jl` module in the `src` directory. In the following we show how to use the functions in that module to simulate the system using some examples.
 
 	 

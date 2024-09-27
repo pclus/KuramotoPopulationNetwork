@@ -1,5 +1,5 @@
 unames = {1: 'Ra', 2: 'Rb', 3: 'theta'}
-parnames = {1: 'K', 2: 'p', 3 : 'alpha'}
+parnames = {1: 'K', 2: 'p', 3 : 'alpha', 4 : 'MIN Ra' , 5 : 'MIN Rb'}
 NDIM=   3, IPS =   1, IRS =   0, ILP =   1
 ICP =  [1,2,3]
 NTST=  100, NCOL=   4, IAD =   3, ISP =   1, ISW = 1, IPLT= 0, NBC= 0, NINT= 0
