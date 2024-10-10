@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/863960464.svg)](https://doi.org/10.5281/zenodo.13912549)
+
 # Simulation and analysis of Kuramoto-Sakaguchi populations interacting through complex networks
 
 
