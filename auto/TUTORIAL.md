@@ -22,7 +22,7 @@ First, we use Euler method to find a fixed point for $K=7$:
 ```
 init=run('oa2',ICP=[1,2,3],IPS=-2,NMX=100000,PAR={'K': 7.0, 'p' : 0.9, 'alpha' : 1.2})
 ```
-The fixed point corresponds to an assymetric (chimera) state, as $R_a\neqR_b$. 
+The fixed point corresponds to an assymetric (chimera) state, as $R_a\neq R_b$. 
 We can continue this solution increasing $K$:
 
 ```
