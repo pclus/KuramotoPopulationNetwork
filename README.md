@@ -4,7 +4,7 @@
 
 
 This repository contains the code accompaining the paper [From chimeras to extensive chaos in networks of heterogeneous
-Kuramoto oscillator populations](https://arxiv.org/abs/2407.20408) by Pol Floriach, Jordi Garcia-Ojalvo, and Pau Clusella.
+Kuramoto oscillator populations](https://doi.org/10.1063/5.0243379) by Pol Floriach, Jordi Garcia-Ojalvo, and Pau Clusella.
 
 Two different set of codes are provided:
 
